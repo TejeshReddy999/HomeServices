@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963453537141",
+    "project_id": "homeservices-3deb1",
+    "storage_bucket": "homeservices-3deb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963453537141:android:394513eb1904a53b2aa13c",
+        "android_client_info": {
+          "package_name": "com.example.homeservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963453537141-3s1vdeh443fau495mfl2q55vp7ib8inb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rTbgQUQ2ZMJpVdHvndsrAPfeCDNdMGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963453537141-3s1vdeh443fau495mfl2q55vp7ib8inb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

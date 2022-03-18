@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/loginperson"
+                android:contentDescription="TODO" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="9dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bhavana Reddy Mallampati"
+                    android:id="@+id/employer_name"
+                    android:textSize="23sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call now"
+            android:id="@+id/call_now"
+            android:background="#DD4CAF50"
+            android:layout_margin="3dp"
+            android:textSize="20sp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Request For Service"
+            android:background="#2BF4CC"
+            android:id="@+id/request_btn"
+            android:textSize="20sp">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

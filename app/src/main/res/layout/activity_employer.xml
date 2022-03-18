@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployerActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending Requests"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/buffer"
+        android:gravity="center"
+        android:textColor="@color/redColor">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/id_layoutpendingdata"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:src="@drawable/loginperson" />
+
+            <TextView
+                android:id="@+id/customer_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Bhavana Reddy Mallampati"
+                android:textSize="23sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/call_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_marginRight="10dp"
+            android:background="#B3DCC6"
+            android:text="Call now"
+            android:textSize="20sp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Ack_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#4CAF50"
+            android:text="Accept"
+            android:textSize="20sp" />
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reject"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="20sp"
+            android:background="@color/redColor">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noRequemsg"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Currently,You have \n nothing to show :("
+        android:textSize="30sp"
+        android:visibility="gone">
+
+    </TextView>
+
+</LinearLayout>
